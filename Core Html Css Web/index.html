@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Html Css Web</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ADVENTURE</div>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Home</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./img/menu-bar.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+<div class="header-content">
+    <h2>Explore The Colorful World</h2>
+    <div class="line"></div>
+    <h1>A WONDERFUL GIFT</h1>
+    <a href="#" class="ctn">Learn More</a>
+</div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="anders" src="./img/anders-jilden-cYrMQA7a3Wc-unsplash.jpg" alt="sec img">
+            <h4>Everest Camp Trek</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elitvoluptatem.</p>
+            <a href="#" class="ctn">Learn More</a>
+          </div>  
+          <div class="col">
+            <img class="euro" src="./img/eurico-craveiro-EzM8_ym_jlQ-unsplash.jpg" alt="sec img">
+            <h4>Walking Holidays</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elitvoluptatem.</p>
+            <a href="#" class="ctn">Learn More</a>
+          </div>  
+        </div>     
+    </section>
+
+<section class="explore">
+    <div class="explore-content">
+  <h1>Explore the world</h1>
+  <div class="line"></div>
+  <p>Lmpedit officia reiciendis voluptate ipsam soluta ad quidem, ullam atque aliquam odio corrupti animi vero? Eligendi.</p>
+   <a href="#" class="ctn">Learn More </a>
+   </div>
+</section>
+
+
+<section class="tours">
+    <div class="row">
+        <div class="col content-col ">
+            <h1>Upcoming Tours & Destination</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dsimilique reiciendis, laboriosam sunt laudantium facere velit amet facilis ducimus reprehenderit!</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+           <img src="./img/federico-di-dio-photography-UWOdrPsIDAg-unsplash.jpg" alt="">
+           <img src="./img/rahul-chakraborty-5aN2I852PTs-unsplash.jpg" alt="">
+           <img src="./img/alexander-schimmeck-Fmp4BL1D2fM-unsplash.jpg" alt="">
+           <img src="./img/manas-manikoth-aJwXHO8LMBQ-unsplash.jpg" alt="">
+           <img src="./img/garrett-parker-DlkF4-dbCOU-unsplash.jpg" alt="">
+           <img src="./img/ryan-spencer-WJDR8_QxVR8-unsplash.jpg" alt="">
+         </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<scetion>
+    <p style="color: white; background-color: rgb(100, 100, 243); padding-top: 58px; height: 80px; width: 100%; font-size: 20px; text-align:center;  " >Lorem ipsum, dolor sit amet consectetur  praesentium obcaecati nihil, sapiente reprehenderiepturi dolorum.</p>
+<p class="footerp" style ="   background-color: rgb(100, 100, 243);  font-size: 20px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; text-align: center;  "><strong>Copyrigjht @ 2020 outdoor  adventure</strong></p>
+
+</scetion>
+
+    <script>
+        const menuBtn = document.querySelector(`.menu-btn`)
+        const navlinks = document.querySelector(`.nav-links`)
+        menuBtn.addEventListener('click' , () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
